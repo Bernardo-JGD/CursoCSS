@@ -1,0 +1,55 @@
+*{
+    background-color: dimgray;
+}
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+.caja{
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 10px;
+    /*float hace que se junten hacía la izquierda en vez de hacía abajo*/
+    float: left;
+}
+
+.rojo{
+    background-color: crimson;
+}
+
+.rosa{
+    background-color: deeppink;
+}
+
+.rgb{
+    background-color: rgb(131, 56, 236);
+}
+
+/*a es de canal alfa o transparencia*/
+.rgba{
+   background-color: rgba(131, 56, 236, .5); 
+}
+
+.hexadecimal{
+    /*si el código hexa solo tiene 3, es porque cada posición se repite*/
+    background-color: #0091ad;
+}
+
+.hexa_transparencia{
+    /*El último par indica el nivel de transparencia
+      pero es también en código hexadecimal*/
+    background-color: #0091ad88;
+}
+
+.hsl{
+    background-color: hsl(195, 100%, 50%);
+}
+
+.hsla{
+    background-color: hsla(195, 100%, 50%, 0.5);
+}

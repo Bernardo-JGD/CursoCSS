@@ -1,0 +1,23 @@
+body{
+    /*Se recomienda poner un color de fondo similar al de la imagen*/
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/img/fondo.png");
+    /*Si hacemos pequeña la pantalla, la imagen de fondo se va a repetir.
+      Si no queremos que se repita usamos la siguiente propiedad: */
+    background-repeat: no-repeat;
+
+    background-position: right top;/*posición del fondo*/
+
+    background-attachment: fixed;/*scroll mueve la imagen mientra baja o sube.
+                                    fixed mantiene fija la imagen*/
+
+    /*de esta manera siplificamos muchos elementos que agregamos en diferentes líneas 
+    background: dodgerblue url("/img/fondo.png")  no-repeat right top;*/
+}
+
+h1{
+    text-align: center;
+    /*background-color: dodgerblue;*/
+    height: 1000px;
+}

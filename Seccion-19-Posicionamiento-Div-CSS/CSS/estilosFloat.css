@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+    /*float: left;*//*float: left; agrega los nuevos elementos a la derecha*/
+}
+
+div.contenedor.flotado{
+    float: left;
+}
+
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+}
+
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+
+div.contenedor.contenedor3{
+    clear: left;/*Limpiar el float de los elementos, a la derecha (right) izquierda (left) o both (ambos lados) */
+    border: 3px dashed darkorange;
+    margin: auto; /*centrado*/
+}
+
+@media (max-width: 768px){
+
+    div.contenedor.flotado{
+        float: initial;
+    }
+    div.contenedor.flotado.contenedor1{
+        border: 3px dashed #adff2f;
+        float: initial;
+    }
+    div.contenedor.flotado.contenedor2{
+        border: 3px dashed rgb(100, 149, 237);
+        float: initial;
+    }
+    div.contenedor.contenedor3{
+        clear: left;/*Limpiar el float de los elementos, a la derecha (right) izquierda (left) o both (ambos lados) */
+        border: 3px dashed hsl(33, 100%, 50%);
+        margin: 0; /*centrado*/
+    }
+
+}

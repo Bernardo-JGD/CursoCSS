@@ -1,0 +1,32 @@
+html{/*con estas propiedades el fondo se mantiene, no se dubplica ni nada*/
+    height: auto;/*en el eje vertical se centre cualquier elemento*/
+    min-height: 100%;/*valor minimo del alto el 100%*/
+}
+body{
+    /*fondo----gradiente lineal(color1-PartSuperior, color2-ParteInferior)*/
+    /* background:linear-gradient(#f72585, #3a03a3); */
+    /*de izquierda a derecha*/
+    /* background:linear-gradient(to right, #f72585, #3a03a3); */
+    /*con tres colores*/
+    /* background:linear-gradient(#24404d, #6dbff1, black); */
+    /*efecto diagonal */
+    /* background: linear-gradient(to boottom right, #f72585, #3a03a3); */
+    /*efecto diagonal con valor de un ángulo*/
+    /* background: linear-gradient(145deg, #f72585, #3a03a3); */
+    /*efecto de circulo o la figura que se le indica*/
+    background: radial-gradient(circle, #0d47a1, #42a5f5);
+    color: #f1faee;
+}
+
+h1{
+    text-align: center;
+}
+
+div.contenedor{
+    width: 30%;/*anccho en 30% de la pantalla*/
+    height: 20%;/*alto del 20% de la pantalla*/
+    margin: auto;/*margen automático para que se centre*/
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    /*argin-left: 100px;*/
+    margin: 30px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+/*Margin collapse: se toma fusionan los margenes de los elementos en la parte superior e inferior siendo el más grande el que predomina*/
+
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    /*argin-left: 100px;*/
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+/*
+p.interno{
+    margin-left: inherit;/*inherit permite heredar el valor de la propiedad superior dentro de la que está este elemento cierre_comentario*
+}
+*/

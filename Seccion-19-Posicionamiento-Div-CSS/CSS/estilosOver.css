@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /*overflow: visible;*//*Por default, se desborda y se ve el desborde*/
+    /*overflow: hidden;*//*ya no se muestra el desborde, solo lo que cabe*/
+    /*overflow: scroll;*//*permite ver el desborde desplazandose con scroll*/
+    overflow: auto;/*de ser necesario usa scroll a lo alto, largo o ambos*/
+    
+    /*overflow solo la vamos a poder trabajar si especificamos el alto.
+    También podemos indicar si solo la queremos aplicar al eje x o y*/
+
+
+}

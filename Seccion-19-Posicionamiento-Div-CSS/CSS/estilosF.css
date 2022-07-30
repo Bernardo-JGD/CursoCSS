@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+.clase1{
+    position: fixed;/*se queda pegado en la pantalla donde se le indique*/
+    top: 0;
+    left: 0;
+    border: 3px solid firebrick;
+    font-size: 20px;
+}
+
+.clase2{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 3px solid green;
+    font-size: 20px;
+}
+
+.clase3{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 3px solid blue;
+    font-size: 20px;
+}
+
+.clase4{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid yellow;
+    font-size: 20px;
+}
+

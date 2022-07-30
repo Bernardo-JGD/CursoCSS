@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #475b9d;
+    text-align: center;
+}
+
+img{
+    opacity: 0.5;
+}
+img:hover{/*al pasar por encima del elemento se aplica el atributo*/
+     opacity:1.0;
+}
+/*Esto puede servir para crear una galeria de imagenes*/

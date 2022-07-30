@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+
+div.contenedor{
+    display: flex;/*se acomoda de manera horizontal los elementos por default a la izquierda*/
+    background-color: #560bad;
+    
+    /*flex-direction: row;*//*column: se acomodan de la parte superior a la parte inferior, a todo lo ancho del elemento div*/
+                                   /*column-reverse: igual que column, pero invierte el orden de los elementos*/
+                                   /*row: es por defecto, los elementos se cargan a la izquierda y en orden*/
+                                   /*row-reverse: igual que row, pero los valores se cargan a la derecha y se invierte el orden*/
+                                   
+    /*flex-wrap: wrap;*//*nowrap: lo elementos no se envuelven por el div padre*/
+                    /*wrap: envuelve los elementos hijo, ya no se salen del contenedor div al cambiar de tamaño*/  
+
+    flex-flow: row wrap;/*engloba las propiedades de flex-direction y flex-wrap*/
+    
+    justify-content: center;/*flex-start: carga los valores a la izquierda, valor por default*/
+                            /*center: centra los elementos*/
+                            /*flex-end: carga los valores a la derecha*/
+                            /*space-between: deja un espacio entre cada elemento*/
+                            /*space-around: deja espacio entre cada cada elemento a la izquierda y a la derecha*/
+    height: 300px;
+    align-items: stretch;/*flex-start: alinea los elementos a la parte superior, ya no se alargan*/
+                            /*center: alinea los elementos al centro de toda el área del elemento padre*/
+                            /*stretch: valor por defecto, alarga los elementos a lo alto */
+                            /*baseline*/
+    
+    /*align-content: center;*//*flex-start,  flex-end* center, space-between, manera vertical, cuando hay más líneas de elementos*/
+}
+
+div.contenedor > p {/*parrafos hijo, al mismo nivel que el padre*/
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}

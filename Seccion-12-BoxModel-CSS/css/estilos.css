@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div{
+    padding: 10px 5px 15px; /*arriba-derecha-abajo-izquierda o ((arriba-abajo)-(derecha-izquierda))
+                         (arriba (derecha-izquierda) abajo)*/
+    border: 15px solid #457b9d;
+    margin: 0 auto;/*auto hace proporcional la distanca del margin*/
+    background-color: #f1faee;
+    /*width: 300px;*/
+    max-width: 300px;/*define el ancho máximo y permite reducir en caso de que se haga más pequña la pantalla.
+                       aplica para el alto, y también se puede aplicar en porcentaje*/
+    outline: 10px solid #a8dadc;/*dependiendo de la propiedad (donde va el solid) 
+                                    puede tomar espacio encimandose con otros elementos HTML*/
+    outline-offset: 10px;/*separa el outline del borde, solo recibe un parametro de distancia que se aplica 
+                           a todos los lados*/
+    box-sizing: border-box;/*Engloba también el padding ahora*/
+}

@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: #457b9d;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;/*scroll en caso de ser necesario*/
+    margin: auto;/*para que se centro el elemento*/
+    border: 3px dashed #a8dadc;
+}
+
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;/*inline-block: permite modificar el ancho y otras propiedades de linea del elemento indicado
+                            que normalmente se comporta como bloque o línea*/
+}
+
+.menu{
+    list-style-type: none;/*Quitamos la bolita de viñeta de lista*/
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;/*Con inline-block se ponen en línea también se puede solo con "inline"
+                            pero de esa manera no podríamos separar el título ni el elemento de tipo div de la lista
+                            ya que con inline no podemos controlar el alto del elemento, en este caso de la lista*/
+
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #f1faee;
+}

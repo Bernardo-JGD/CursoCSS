@@ -1,0 +1,28 @@
+/*Tercera prioridad*/
+/*
+h1{/*la propiedad important de mayor prioridad*/
+    /*color: aqua !important;
+    color: aqua ;
+}
+*/
+/*para referenciar con id único y aplicar solo a ese elemento los atributos*/
+#titulo{
+    color: crimson;
+    text-align: center;
+
+}
+
+/*Definiendo clase*/
+.centrar_parrafo{
+    text-align: center;
+}
+
+.texto_grande{
+    font-size: 20px;
+}
+
+/*Selector universal: modifica todos los elementos de la página html*/
+*{
+    background-color: ghostwhite;
+    color: cornflowerblue;
+}

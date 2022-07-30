@@ -1,0 +1,6 @@
+
+/*Primero identifica a los elementos de parrafo y 
+luego identifica que tengan la clase y aplica los atributos*/
+p.centrar{
+    text-align: center;
+}

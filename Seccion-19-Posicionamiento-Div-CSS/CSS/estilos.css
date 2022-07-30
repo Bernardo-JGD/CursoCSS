@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+/*por default el posicionamiento es de tipo static*/
+div{
+    width: 50%;/*al usar porcentaje siempre se respeta el valor dado, en cambio si se usan
+                 valores en pixeles, esto se nota al hacer zoom*/
+    border: 3px solid firebrick;
+    margin: auto;/*auto centra*/
+}

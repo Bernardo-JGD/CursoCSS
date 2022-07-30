@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.relativo{
+    max-width: 300px;
+    height: 200px;
+    top: 10px;
+    left: 100px;
+    position: relative;
+    border: 3px solid cornflowerblue;
+}
+
+div.absoluto{
+    position: absolute;/*como fixed, se queda donde lo ponga pero ya no sigue el scroll
+                         Pero en caso de estar dentro de otro elemento, se queda dentro
+                         solo si el elemento padre no es static. Se mantiene de manera 
+                         absoluta según el valor de position del elemento padre que lo contiene */
+    bottom: 20px;
+    right: 10px;
+    border: 3px solid firebrick; 
+}

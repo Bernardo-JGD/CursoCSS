@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    /*sombra en el texto*/
+    /*           eje x, exe y, difuminado(blur), color*/
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63946;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadd;
+    padding: 15px;
+    text-align: center;
+     /*sombra en el texto*/
+    /*           eje x, exe y, difuminado(blur), hacer más grande la sombra, color*/
+    box-shadow: 2px 2px 5px 2px grey;
+    color: #457b9d;
+    border-radius: 15px;
+}
+
+div.cabecero{
+    background-color: #4cc9f0;
+}
+
+div.cuerpo{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(177, 7177, 177);
+}
+
+/*Link para checar como hacer sombras en css
+
+https://html-css-js.com/css/generator/text-shadow/
+https://cssgenerator.org/
+
+*/
+

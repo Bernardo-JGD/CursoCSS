@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+}
+
+/*la "p" al final indica que los cambios dentro de este bloque van a afectar a 
+los elementos de tipo parrafo que se encuentren dentro del elemento de tipo div
+que contendga la clase descendiente y contenedor, sin importar que tan interno 
+del elemento div se encuentre*/
+div.contenedor.descendiente p{
+    background-color: #fdffb6;
+}
+
+/*el ">" indica que es de tipo hijo, que quiere decir que los cambios que se aplicarán
+solo serán a los elementos (en este caso tipo parrafo) que se encuentren inmediatamente dentro 
+del elemento de tipo div con la clase contenedor, si hay otro elemento dentro de un div con esta clase que 
+contenga a un elemento de tipo parrafo, los cambios en ese elemento de tipo párrafo no se realizarán
+al no ser un hijo directo*/
+div.contenedor.hijo > p{
+    background-color: #ffc6ff;
+}
+
+/*El "+" indica que el estilo se va a aplicar al elemento inmmediato que este fuera del cierre del elemento
+que contenga las clases indicadas antes del signo*/
+div.contenedor.adyacente + p{
+    background-color: #caffbf;
+}
+
+/*El "~" indica que son elementos hermanos, o sea que están al mismo nivel de declaración
+ (no aplica a los que están dentro de un elemento)*/
+div.contenedor.hermano ~ p{
+    background-color: #9bf6ff;
+}

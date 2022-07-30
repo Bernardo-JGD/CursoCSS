@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: crimson
+}
+
+div{
+    position: sticky;/*Mientras esta en pantalla se queda en su lugar, pero en cuanto sale
+                       se mueve con el scroll, de tal manera que se queda pegado ya sea 
+                       en el top bottom righ o left.
+                       Puede servir para los menus en pantalla*/
+    top: 0;
+    border: 3px solid firebrick;
+}

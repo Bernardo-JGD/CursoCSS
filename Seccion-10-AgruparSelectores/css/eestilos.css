@@ -1,0 +1,5 @@
+/*Agrupando elementos para aplicar estilos a todos ellos*/
+h1, h2, p, div{
+    color: crimson;
+    text-align: center;
+}
